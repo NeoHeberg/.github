@@ -62,7 +62,7 @@
 ### 🔗 Liens utiles
 
 [![Site Web](https://img.shields.io/badge/Site%20Web-neoheberg.fr-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white)](https://neoheberg.fr/)
-[![Espace Client](https://img.shields.io/badge/Espace%20Client-dash.neoheberg.fr-28a745?style=for-the-badge&logo=chrome&logoColor=white)](https://dash.neoheberg.fr/)
+[![Espace Client](https://img.shields.io/badge/Espace%20Client-dash.neoheberg.fr-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white)](https://dash.neoheberg.fr/)
 [![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.neoheberg.fr)
 
 ---
