@@ -42,7 +42,7 @@
 
 | Statistiques globales | Langages utilisés |
 |----------------------|-------------------|
-| ![Stats NeoHeberg](https://github-readme-stats.vercel.app/api?username=NeoHeberg&show_icons=true&theme=radical&hide_border=true&include_all_commits=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NeoHeberg&layout=compact&theme=radical&hide_border=true) |
+| ![Stats NeoHeberg](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/org-stats.svg?v=20260518) | ![Top Langs](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/org-languages.svg?v=20260518) |
 
 ---
 

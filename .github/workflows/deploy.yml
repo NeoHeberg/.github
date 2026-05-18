@@ -1,4 +1,4 @@
-name: 📈 Graphique d'activité NeoHeberg
+name: 📊 Dynamiques NeoHeberg
 
 on:
   schedule:
@@ -14,22 +14,23 @@ jobs:
         with:
           token: ${{ secrets.ACTIVITY_GRAPH_TOKEN }}
 
-      - name: 🐍 Générer le graphique d’activité
+      - name: 🐍 Générer tous les SVG
         env:
           GH_TOKEN: ${{ secrets.ACTIVITY_GRAPH_TOKEN }}
-        run: |
-          python3 generate_org_graph.py
+        run: python3 generate_org_dynamics.py
 
-      - name: 📤 Commiter le graphique
+      - name: 📤 Commiter les changements
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/activity-graph.svg
-          git diff --staged --quiet || (git commit -m "📊 Mise à jour du graphique d'activité de l'organisation" && git push)
+          git add profile/activity-graph.svg profile/org-stats.svg profile/org-languages.svg
+          git diff --staged --quiet || (git commit -m "📊 Mise à jour des graphiques de l'organisation" && git push)
 
-      - name: 🔄 Forcer le rafraîchissement du cache du README
+      - name: 🔄 Cache bust README
         run: |
           TODAY=$(date +%Y%m%d)
           sed -i "s|activity-graph.svg?v=[0-9]*|activity-graph.svg?v=$TODAY|g" profile/README.md
+          sed -i "s|org-stats.svg?v=[0-9]*|org-stats.svg?v=$TODAY|g" profile/README.md
+          sed -i "s|org-languages.svg?v=[0-9]*|org-languages.svg?v=$TODAY|g" profile/README.md
           git add profile/README.md
           git diff --staged --quiet || (git commit -m "🔄 Cache bust $TODAY" && git push)
