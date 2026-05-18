@@ -42,7 +42,7 @@
 
 | Statistiques globales | Langages utilisés |
 |----------------------|-------------------|
-| ![Stats NeoHeberg](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/org-stats.svg?v=20260518) | ![Top Langs](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/org-languages.svg?v=20260518) |
+| ![Stats NeoHeberg](./org-stats.svg?v=20260518) | ![Top Langs](./org-languages.svg?v=20260518) |
 
 ---
 
