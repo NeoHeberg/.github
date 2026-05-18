@@ -5,8 +5,11 @@ ORG = "NeoHeberg"
 TOKEN = os.environ["GH_TOKEN"]
 HEADERS = {"Authorization": f"token {TOKEN}"}
 
+YEAR = datetime.date.today().year
+SINCE = f"{YEAR}-01-01T00:00:00Z"
+
 def get_repos():
-    """Récupère tous les dépôts (publics et privés) de l'organisation"""
+    """Récupère tous les dépôts (publics + privés) de l'organisation"""
     repos = []
     page = 1
     while True:
@@ -22,32 +25,47 @@ def get_repos():
         page += 1
     return repos
 
-def get_commit_activity(repo_full_name):
-    """Récupère l'activité hebdomadaire des commits pour un dépôt"""
-    url = f"https://api.github.com/repos/{repo_full_name}/stats/commit_activity"
-    r = requests.get(url, headers=HEADERS)
-    if r.status_code == 202:
-        return []
-    if r.status_code != 200:
-        print(f"⚠️  Erreur stats pour {repo_full_name}: {r.status_code}")
-        return []
-    return r.json()
+def get_commits_since(repo_full_name):
+    """Retourne la liste des commits (datetime) depuis le début de l'année"""
+    commits = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/repos/{repo_full_name}/commits?since={SINCE}&per_page=100&page={page}"
+        r = requests.get(url, headers=HEADERS)
+        if r.status_code != 200:
+            print(f"⚠️  Erreur commits pour {repo_full_name}: {r.status_code}")
+            break
+        data = r.json()
+        if not data:
+            break
+        for c in data:
+            try:
+                date_str = c["commit"]["committer"]["date"]
+                commits.append(datetime.datetime.fromisoformat(date_str.rstrip("Z")))
+            except:
+                pass
+        page += 1
+        if len(data) < 100:
+            break
+    return commits
 
-year = datetime.date.today().year
+# Collecte
 monthly = defaultdict(int)
-
 repos = get_repos()
-print(f"📦 {len(repos)} dépôts trouvés (publics + privés)")
+print(f"📦 {len(repos)} dépôts trouvés")
 
+total_commits_all = 0
 for repo in repos:
     name = repo["full_name"]
-    data = get_commit_activity(name)
-    for week in data:
-        week_unix = week["week"]
-        week_date = datetime.datetime.utcfromtimestamp(week_unix).date()
-        if week_date.year == year:
-            month = week_date.month
-            monthly[month] += week["total"]
+    print(f"🔍 Analyse de {name} ... ", end="")
+    commits = get_commits_since(name)
+    total_commits_all += len(commits)
+    for dt in commits:
+        month = dt.month
+        monthly[month] += 1
+    print(f"{len(commits)} commits trouvés")
+
+print(f"✅ Total commits sur l'année : {total_commits_all}")
 
 months_labels = ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin",
                  "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"]
@@ -75,14 +93,12 @@ svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{he
 svg.append('<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#ccc;font-size:12px}.title{font-size:18px;fill:#5bcdec;font-weight:600}.axe-line{stroke:#555;stroke-width:1}.bar-green{fill:#39d353}.bar-empty{fill:#2d333b}</style>')
 svg.append(f'<rect width="100%" height="100%" fill="#0d1117"/>')
 
-# Axe Y 
 step_axe = max(1, math.ceil(max_axe / 5))
 for val in range(0, max_axe + 1, step_axe):
     y = margin_top + plot_height - (val / max_axe) * plot_height if max_axe > 0 else margin_top + plot_height
     svg.append(f'<line x1="{margin_left}" y1="{y}" x2="{width - margin_right}" y2="{y}" class="axe-line" stroke-dasharray="3,3"/>')
     svg.append(f'<text x="{margin_left - 10}" y="{y + 4}" text-anchor="end">{val}</text>')
 
-# Barres
 for i, (month, count) in enumerate(zip(months_labels, values)):
     x = margin_left + i * (plot_width / 12)
     bar_h = (count / max_axe) * plot_height if max_axe > 0 else 0
@@ -91,12 +107,8 @@ for i, (month, count) in enumerate(zip(months_labels, values)):
     svg.append(f'<rect x="{x}" y="{y}" width="{bar_width}" height="{bar_h}" class="{cls}"/>')
     svg.append(f'<text x="{x + bar_width/2}" y="{margin_top + plot_height + 20}" text-anchor="middle">{month}</text>')
 
-# Axe X
 svg.append(f'<line x1="{margin_left}" y1="{margin_top + plot_height}" x2="{width - margin_right}" y2="{margin_top + plot_height}" class="axe-line"/>')
-
-# Titre
-svg.append(f'<text x="{width/2}" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en {year}</text>')
-
+svg.append(f'<text x="{width/2}" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en {YEAR}</text>')
 svg.append(f'<!-- Cache bust: {datetime.datetime.now().isoformat()} -->')
 svg.append('</svg>')
 
