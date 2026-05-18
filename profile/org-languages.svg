@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="260">
-<style>text{font-family:system-ui,sans-serif}.title{fill:#5bcdec;font-size:18px;font-weight:bold}.lang{fill:#c9d1d9;font-size:14px}.pct{fill:#8b949e;font-size:12px}</style>
-<rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<style>text{font-family:system-ui,sans-serif}.title{fill:#0366d6;font-size:18px;font-weight:bold}.lang{fill:#24292e;font-size:14px}.pct{fill:#586069;font-size:12px}</style>
 <text x="20" y="30" class="title">Langages les plus utilisés</text>
 <rect x="20" y="60" width="300.0" height="16" rx="4" fill="#f1e05a"/>
 <text x="330" y="73" class="lang">JavaScript</text>
@@ -10,7 +9,7 @@
 <text x="330" y="133" class="lang">CSS</text>
 <rect x="20" y="150" width="111.90945647943963" height="16" rx="4" fill="#2b7489"/>
 <text x="330" y="163" class="lang">HTML</text>
-<rect x="20" y="180" width="11.531975612919965" height="16" rx="4" fill="#3572a5"/>
+<rect x="20" y="180" width="11.60721234920223" height="16" rx="4" fill="#3572a5"/>
 <text x="330" y="193" class="lang">Python</text>
 <rect x="20" y="210" width="10.137501621481386" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">Hack</text>
