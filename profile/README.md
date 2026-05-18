@@ -1,32 +1,70 @@
-# Bienvenue sur le GitHub de NeoHeberg ! 👋
+<div align="center">
+<img src="https://neoheberg.fr/img/logo.webp" width="120" />
 
-## 🇫🇷 À propos de nous
+# 🌐 NeoHeberg
 
-NeoHeberg est votre partenaire de confiance pour des solutions d'hébergement web performantes et sécurisées. Notre mission est de fournir des services d'hébergement fiables, rapides et abordables, adaptés aussi bien aux développeurs indépendants qu'aux entreprises en pleine croissance.
+### Hébergement web performant, sécurisé et accessible
 
-Que vous lanciez un blog, une boutique en ligne ou une application complexe, nous avons l'infrastructure et l'expertise pour vous accompagner.
+[![Visites](https://komarev.com/ghpvc/?username=NeoHeberg&label=Visites&color=0e75b6&style=flat)](https://github.com/NeoHeberg)
 
-## ✨ Nos Services
+[![Stars totales](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2FNeoHeberg&query=public_gists&label=Stars%20totales&color=yellow&style=for-the-badge)](https://github.com/NeoHeberg)
+[![Followers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2FNeoHeberg&query=followers&label=Followers&color=lightgrey&style=for-the-badge)](https://github.com/NeoHeberg)
 
-Nous proposons une gamme complète de solutions pour répondre à tous vos besoins :
+---
 
-*   **Hébergement Web Mutualisé** : Idéal pour démarrer, simple et économique.
-*   **Hébergement VPS (Serveur Privé Virtuel)** : Flexibilité et puissance avec un accès root complet.
-*   **Hébergement de Jeux** : Des serveurs optimisés pour une expérience de jeu fluide et sans latence.
+### 🚀 Nos services
 
-## 🚀 Pourquoi choisir NeoHeberg ?
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/clouds/100/web.png" width="50"><br>
+      <b>Hébergement Mutualisé</b><br>
+      <sub>Simple & économique, idéal pour démarrer</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/clouds/100/server.png" width="50"><br>
+      <b>VPS</b><br>
+      <sub>Flexibilité et accès root complet</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/clouds/100/controller.png" width="50"><br>
+      <b>Hébergement de jeux</b><br>
+      <sub>Serveurs optimisés anti-latence</sub>
+    </td>
+  </tr>
+</table>
 
-*   **Performance** : Nous utilisons du matériel de dernière génération pour garantir des temps de chargement rapides.
-*   **Sécurité** : La protection de vos données est notre priorité. Nous incluons une protection anti-DDoS sur l'ensemble de nos services.
-*   **Support Réactif** : Notre équipe de support technique est disponible pour vous aider à chaque étape de votre projet.
-*   **Simplicité** : Nos panneaux de contrôle intuitifs facilitent la gestion de votre hébergement.
+---
 
+### 📊 Activité de l’organisation (cette année)
 
-## 🔗 Liens Utiles
+![Graphique d'activité NeoHeberg](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/activity-graph.svg?v=20260518)
 
-*   **Site Web** : [neoheberg.fr](https://neoheberg.fr/)
-*   **Espace Client** : [dash.neoheberg.fr](https://dash.neoheberg.fr/)
-*   **Support Technique** : 
-*   **Discord** : [Discord](https://discord.neoheberg.fr)
+| Statistiques globales | Langages utilisés |
+|----------------------|-------------------|
+| ![Stats NeoHeberg](https://github-readme-stats.vercel.app/api?username=NeoHeberg&show_icons=true&theme=radical&hide_border=true&include_all_commits=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NeoHeberg&layout=compact&theme=radical&hide_border=true) |
 
-Merci de votre visite et à bientôt sur NeoHeberg !
+---
+
+### 🧰 Notre stack
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+### 🔗 Liens utiles
+
+[![Site Web](https://img.shields.io/badge/Site%20Web-neoheberg.fr-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white)](https://neoheberg.fr/)
+[![Espace Client](https://img.shields.io/badge/Espace%20Client-dash.neoheberg.fr-28a745?style=for-the-badge&logo=whmcs&logoColor=white)](https://dash.neoheberg.fr/)
+[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.neoheberg.fr)
+
+---
+
+</div>

@@ -1,0 +1,33 @@
+name: 📈 Graphique d'activité NeoHeberg
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Générer le graphique d’activité
+        env:
+          GH_TOKEN: ${{ secrets.ACTIVITY_GRAPH_TOKEN }}
+        run: |
+          python3 generate_org_graph.py
+
+      - name: 📤 Commiter le graphique
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/activity-graph.svg
+          git diff --staged --quiet || (git commit -m "📊 Mise à jour du graphique d'activité de l'organisation" && git push)
+
+      - name: 🔄 Forcer le rafraîchissement du cache du README
+        run: |
+          TODAY=$(date +%Y%m%d)
+          sed -i "s|activity-graph.svg?v=[0-9]*|activity-graph.svg?v=$TODAY|g" profile/README.md
+          git add profile/README.md
+          git diff --staged --quiet || (git commit -m "🔄 Cache bust $TODAY" && git push)
