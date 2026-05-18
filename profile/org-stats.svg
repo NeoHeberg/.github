@@ -1,5 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200">
-<style>text{font-family:system-ui,sans-serif}.title{fill:#0366d6;font-size:20px;font-weight:bold}.label{fill:#586069;font-size:14px}.number{fill:#24292e;font-size:32px;font-weight:bold}.icon{fill:#28a745}</style>
+
+    <style>
+      text { font-family: system-ui, sans-serif; }
+      .title { font-size: 20px; font-weight: bold; }
+      .label { font-size: 14px; }
+      .number { font-size: 32px; font-weight: bold; }
+
+      /* Mode clair */
+      .title { fill: #0366d6; }
+      .label { fill: #586069; }
+      .number { fill: #24292e; }
+
+      /* Mode sombre */
+      @media (prefers-color-scheme: dark) {
+        .title { fill: #58a6ff; }
+        .label { fill: #8b949e; }
+        .number { fill: #c9d1d9; }
+      }
+    </style>
+    
 <text x="25" y="40" class="title">Statistiques de NeoHeberg</text>
 <circle cx="50" cy="80" r="12" fill="#28a745"/>
 <text x="75" y="85" class="label">Repositories</text>

@@ -1,5 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350">
-<style>text{font-family:system-ui,sans-serif;fill:#24292e;font-size:12px}.title{font-size:18px;fill:#0366d6;font-weight:600}.axe-line{stroke:#d1d5da;stroke-width:1}.bar-green{fill:#28a745}.bar-empty{fill:#e1e4e8}</style>
+
+    <style>
+      text { font-family: system-ui, sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: 600; }
+      .axe-line { stroke-width: 1; }
+      .bar-green { fill: #28a745; }
+      .bar-empty { fill: #e1e4e8; }
+
+      /* Mode clair par défaut (fallback) */
+      text { fill: #24292e; }
+      .title { fill: #0366d6; }
+      .axe-line { stroke: #d1d5da; }
+
+      /* Mode sombre */
+      @media (prefers-color-scheme: dark) {
+        text { fill: #c9d1d9; }
+        .title { fill: #58a6ff; }
+        .axe-line { stroke: #30363d; }
+        .bar-empty { fill: #2d333b; }
+      }
+    </style>
+    
 <line x1="80" y1="290.0" x2="1160" y2="290.0" class="axe-line" stroke-dasharray="3,3"/>
 <text x="70" y="294.0" text-anchor="end">0</text>
 <line x1="80" y1="240.0" x2="1160" y2="240.0" class="axe-line" stroke-dasharray="3,3"/>
@@ -20,7 +41,7 @@
 <text x="303.0" y="310" text-anchor="middle">Mar</text>
 <rect x="350.0" y="143.33333333333334" width="86.0" height="146.66666666666666" class="bar-green"/>
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
-<rect x="440.0" y="80.0" width="86.0" height="210.0" class="bar-green"/>
+<rect x="440.0" y="75.0" width="86.0" height="215.0" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
 <rect x="530.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
@@ -38,5 +59,5 @@
 <text x="1113.0" y="310" text-anchor="middle">Déc</text>
 <line x1="80" y1="290" x2="1160" y2="290" class="axe-line"/>
 <text x="600.0" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en 2026</text>
-<!-- 2026-05-18T12:36:52.095673 -->
+<!-- 2026-05-18T12:40:31.446685 -->
 </svg>
