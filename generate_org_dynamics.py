@@ -4,6 +4,12 @@ Génère 3 SVG dynamiques pour le README de l'organisation NeoHeberg :
 - activity-graph.svg : commits par mois
 - org-stats.svg     : repos / forks / stars
 - org-languages.svg : top 8 langages (barres)
+
+Les SVG sont sans fond (transparents) et utilisent des couleurs sombres pour le texte,
+ce qui les rend lisibles sur fond clair. En mode sombre, le contraste peut être réduit ;
+pour un meilleur résultat sur les deux thèmes, envisagez d'ajouter un fond légèrement
+teinté ou d'utiliser des couleurs adaptatives via CSS média (non supporté dans les
+images SVG sur GitHub).
 """
 
 import requests, datetime, math, os, sys, json
@@ -78,7 +84,7 @@ def get_top_languages(repos):
                 lang_counter[lang] += bytes_count
     return lang_counter.most_common(8)
 
-# ─── Fonctions SVG génériques ─────────────────────────────────────
+# ─── Fonctions SVG génériques ─────────────────────────
 def svg_bar_chart_activity(monthly):
     months_labels = ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin",
                      "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"]
@@ -100,8 +106,7 @@ def svg_bar_chart_activity(monthly):
     bw = pw / 12 - 4
 
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">']
-    svg.append('<style>text{font-family:system-ui,sans-serif;fill:#ccc;font-size:12px}.title{font-size:18px;fill:#5bcdec;font-weight:600}.axe-line{stroke:#555;stroke-width:1}.bar-green{fill:#39d353}.bar-empty{fill:#2d333b}</style>')
-    svg.append(f'<rect width="100%" height="100%" fill="#0d1117"/>')
+    svg.append('<style>text{font-family:system-ui,sans-serif;fill:#24292e;font-size:12px}.title{font-size:18px;fill:#0366d6;font-weight:600}.axe-line{stroke:#d1d5da;stroke-width:1}.bar-green{fill:#28a745}.bar-empty{fill:#e1e4e8}</style>')
 
     step_axe = max(1, math.ceil(max_axe / 5))
     for val in range(0, max_axe + 1, step_axe):
@@ -126,22 +131,21 @@ def svg_bar_chart_activity(monthly):
 def svg_stats_card(repos, forks, stars):
     width, height = 500, 200
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">']
-    svg.append('<style>text{font-family:system-ui,sans-serif}.title{fill:#5bcdec;font-size:20px;font-weight:bold}.label{fill:#8b949e;font-size:14px}.number{fill:#c9d1d9;font-size:32px;font-weight:bold}.icon{fill:#5bcdec}</style>')
-    svg.append(f'<rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>')
+    svg.append('<style>text{font-family:system-ui,sans-serif}.title{fill:#0366d6;font-size:20px;font-weight:bold}.label{fill:#586069;font-size:14px}.number{fill:#24292e;font-size:32px;font-weight:bold}.icon{fill:#28a745}</style>')
     svg.append(f'<text x="25" y="40" class="title">Statistiques de NeoHeberg</text>')
 
     # Repos
-    svg.append(f'<circle cx="50" cy="80" r="12" fill="#238636"/>')
+    svg.append(f'<circle cx="50" cy="80" r="12" fill="#28a745"/>')
     svg.append(f'<text x="75" y="85" class="label">Repositories</text>')
     svg.append(f'<text x="75" y="120" class="number">{repos}</text>')
 
     # Forks
-    svg.append(f'<circle cx="200" cy="80" r="12" fill="#1f6feb"/>')
+    svg.append(f'<circle cx="200" cy="80" r="12" fill="#0366d6"/>')
     svg.append(f'<text x="225" y="85" class="label">Forks</text>')
     svg.append(f'<text x="225" y="120" class="number">{forks}</text>')
 
     # Stars
-    svg.append(f'<circle cx="350" cy="80" r="12" fill="#d29922"/>')
+    svg.append(f'<circle cx="350" cy="80" r="12" fill="#d73a49"/>')
     svg.append(f'<text x="375" y="85" class="label">Stars</text>')
     svg.append(f'<text x="375" y="120" class="number">{stars}</text>')
 
@@ -155,8 +159,7 @@ def svg_top_languages(lang_list):
     colors = ["#f1e05a","#e34c26","#563d7c","#2b7489","#3572a5","#89e051","#dea584","#ffac45"]
     width, height = 500, 50 + 30 * len(lang_list)
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">']
-    svg.append('<style>text{font-family:system-ui,sans-serif}.title{fill:#5bcdec;font-size:18px;font-weight:bold}.lang{fill:#c9d1d9;font-size:14px}.pct{fill:#8b949e;font-size:12px}</style>')
-    svg.append(f'<rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>')
+    svg.append('<style>text{font-family:system-ui,sans-serif}.title{fill:#0366d6;font-size:18px;font-weight:bold}.lang{fill:#24292e;font-size:14px}.pct{fill:#586069;font-size:12px}</style>')
     svg.append(f'<text x="20" y="30" class="title">Langages les plus utilisés</text>')
 
     y = 60
