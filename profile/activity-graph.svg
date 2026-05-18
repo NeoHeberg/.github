@@ -3,17 +3,25 @@
 <rect width="100%" height="100%" fill="#0d1117"/>
 <line x1="80" y1="290.0" x2="1160" y2="290.0" class="axe-line" stroke-dasharray="3,3"/>
 <text x="70" y="294.0" text-anchor="end">0</text>
+<line x1="80" y1="240.0" x2="1160" y2="240.0" class="axe-line" stroke-dasharray="3,3"/>
+<text x="70" y="244.0" text-anchor="end">25</text>
+<line x1="80" y1="190.0" x2="1160" y2="190.0" class="axe-line" stroke-dasharray="3,3"/>
+<text x="70" y="194.0" text-anchor="end">50</text>
+<line x1="80" y1="140.0" x2="1160" y2="140.0" class="axe-line" stroke-dasharray="3,3"/>
+<text x="70" y="144.0" text-anchor="end">75</text>
+<line x1="80" y1="90.0" x2="1160" y2="90.0" class="axe-line" stroke-dasharray="3,3"/>
+<text x="70" y="94.0" text-anchor="end">100</text>
 <line x1="80" y1="40.0" x2="1160" y2="40.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="44.0" text-anchor="end">1</text>
-<rect x="80.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
+<text x="70" y="44.0" text-anchor="end">125</text>
+<rect x="80.0" y="288.0" width="86.0" height="2.0" class="bar-green"/>
 <text x="123.0" y="310" text-anchor="middle">Jan</text>
-<rect x="170.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
+<rect x="170.0" y="188.0" width="86.0" height="102.0" class="bar-green"/>
 <text x="213.0" y="310" text-anchor="middle">Fév</text>
-<rect x="260.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
+<rect x="260.0" y="128.0" width="86.0" height="162.0" class="bar-green"/>
 <text x="303.0" y="310" text-anchor="middle">Mar</text>
-<rect x="350.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
+<rect x="350.0" y="114.0" width="86.0" height="176.0" class="bar-green"/>
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
-<rect x="440.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
+<rect x="440.0" y="58.0" width="86.0" height="232.0" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
 <rect x="530.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
@@ -31,5 +39,5 @@
 <text x="1113.0" y="310" text-anchor="middle">Déc</text>
 <line x1="80" y1="290" x2="1160" y2="290" class="axe-line"/>
 <text x="600.0" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en 2026</text>
-<!-- Cache bust: 2026-05-18T07:34:22.893850 -->
+<!-- Cache bust: 2026-05-18T07:38:27.913696 -->
 </svg>
