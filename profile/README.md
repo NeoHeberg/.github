@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://neoheberg.fr/img/logo.webp" width="120" />
+<img src="https://avatars.githubusercontent.com/u/216753900?s=200&v=4" width="120" />
 
 # 🌐 NeoHeberg
 
