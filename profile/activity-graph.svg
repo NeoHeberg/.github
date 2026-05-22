@@ -12,24 +12,24 @@
 <line x1="80" y1="290.0" x2="1160" y2="290.0" class="axe-line" stroke-dasharray="3,3"/>
 <text x="70" y="294.0" text-anchor="end">0</text>
 <line x1="80" y1="240.0" x2="1160" y2="240.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="244.0" text-anchor="end">35</text>
+<text x="70" y="244.0" text-anchor="end">40</text>
 <line x1="80" y1="190.0" x2="1160" y2="190.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="194.0" text-anchor="end">70</text>
+<text x="70" y="194.0" text-anchor="end">80</text>
 <line x1="80" y1="140.0" x2="1160" y2="140.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="144.0" text-anchor="end">105</text>
+<text x="70" y="144.0" text-anchor="end">120</text>
 <line x1="80" y1="90.0" x2="1160" y2="90.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="94.0" text-anchor="end">140</text>
+<text x="70" y="94.0" text-anchor="end">160</text>
 <line x1="80" y1="40.0" x2="1160" y2="40.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="44.0" text-anchor="end">175</text>
-<rect x="80.0" y="288.57142857142856" width="86.0" height="1.4285714285714286" class="bar-green"/>
+<text x="70" y="44.0" text-anchor="end">200</text>
+<rect x="80.0" y="288.75" width="86.0" height="1.25" class="bar-green"/>
 <text x="123.0" y="310" text-anchor="middle">Jan</text>
-<rect x="170.0" y="217.14285714285714" width="86.0" height="72.85714285714286" class="bar-green"/>
+<rect x="170.0" y="226.25" width="86.0" height="63.75" class="bar-green"/>
 <text x="213.0" y="310" text-anchor="middle">Fév</text>
-<rect x="260.0" y="174.28571428571428" width="86.0" height="115.71428571428571" class="bar-green"/>
+<rect x="260.0" y="188.75" width="86.0" height="101.25" class="bar-green"/>
 <text x="303.0" y="310" text-anchor="middle">Mar</text>
-<rect x="350.0" y="164.28571428571428" width="86.0" height="125.71428571428572" class="bar-green"/>
+<rect x="350.0" y="180.0" width="86.0" height="110.0" class="bar-green"/>
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
-<rect x="440.0" y="44.28571428571428" width="86.0" height="245.71428571428572" class="bar-green"/>
+<rect x="440.0" y="60.0" width="86.0" height="230.0" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
 <rect x="530.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
@@ -47,5 +47,5 @@
 <text x="1113.0" y="310" text-anchor="middle">Déc</text>
 <line x1="80" y1="290" x2="1160" y2="290" class="axe-line"/>
 <text x="600.0" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en 2026</text>
-<!-- 2026-05-22T03:26:22.304894 -->
+<!-- 2026-05-22T08:58:11.242020 -->
 </svg>
