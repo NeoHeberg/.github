@@ -29,7 +29,7 @@
 <text x="303.0" y="310" text-anchor="middle">Mar</text>
 <rect x="350.0" y="192.22222222222223" width="86.0" height="97.77777777777779" class="bar-green"/>
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
-<rect x="440.0" y="58.888888888888886" width="86.0" height="231.11111111111111" class="bar-green"/>
+<rect x="440.0" y="57.77777777777777" width="86.0" height="232.22222222222223" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
 <rect x="530.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
@@ -47,5 +47,5 @@
 <text x="1113.0" y="310" text-anchor="middle">Déc</text>
 <line x1="80" y1="290" x2="1160" y2="290" class="axe-line"/>
 <text x="600.0" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en 2026</text>
-<!-- 2026-05-25T10:00:42.387460 -->
+<!-- 2026-05-25T14:49:35.073329 -->
 </svg>
