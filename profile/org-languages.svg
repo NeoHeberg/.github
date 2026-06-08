@@ -12,16 +12,16 @@
 <text x="330" y="73" class="lang">PHP</text>
 <rect x="20" y="90" width="86.18417715321829" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">JavaScript</text>
-<rect x="20" y="120" width="43.087841655921565" height="16" rx="4" fill="#563d7c"/>
+<rect x="20" y="120" width="43.24250035096081" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">CSS</text>
 <rect x="20" y="150" width="21.635583532800975" height="16" rx="4" fill="#2b7489"/>
 <text x="330" y="163" class="lang">HTML</text>
 <rect x="20" y="180" width="5.100905655836625" height="16" rx="4" fill="#3572a5"/>
 <text x="330" y="193" class="lang">Hack</text>
-<rect x="20" y="210" width="3.2216432515840427" height="16" rx="4" fill="#89e051"/>
-<text x="330" y="223" class="lang">Python</text>
-<rect x="20" y="240" width="1.2963725398827142" height="16" rx="4" fill="#dea584"/>
-<text x="330" y="253" class="lang">Blade</text>
-<rect x="20" y="270" width="0.13236236142946634" height="16" rx="4" fill="#ffac45"/>
-<text x="330" y="283" class="lang">TypeScript</text>
+<rect x="20" y="210" width="5.0283540940905285" height="16" rx="4" fill="#89e051"/>
+<text x="330" y="223" class="lang">TypeScript</text>
+<rect x="20" y="240" width="3.2216432515840427" height="16" rx="4" fill="#dea584"/>
+<text x="330" y="253" class="lang">Python</text>
+<rect x="20" y="270" width="1.2963725398827142" height="16" rx="4" fill="#ffac45"/>
+<text x="330" y="283" class="lang">Blade</text>
 </svg>
