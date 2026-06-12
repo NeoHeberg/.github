@@ -51,7 +51,13 @@ def get_monthly_commits(repos):
                 break
             for c in data:
                 try:
-                    dt = datetime.datetime.fromisoformat(c["commit"]["committer"]["date"].rstrip("Z"))
+                    email = c["commit"]["committer"].get("email")
+                    if email == "github-actions[bot]@users.noreply.github.com":
+                        continue  # Ignore les commits du bot
+
+                    dt = datetime.datetime.fromisoformat(
+                        c["commit"]["committer"]["date"].rstrip("Z")
+                    )
                     monthly[dt.month] += 1
                 except:
                     pass
@@ -80,6 +86,18 @@ def get_top_languages(repos):
             if lang:
                 lang_counter[lang] += bytes_count
     return lang_counter.most_common(8)
+
+# ─── Fonction utilitaire : écrire seulement si changement ─────────
+def write_if_changed(path, content):
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            old = f.read()
+        if old == content:
+            print(f"⏩ Aucun changement pour {path}")
+            return
+    with open(path, "w") as f:
+        f.write(content)
+    print(f"💾 Mise à jour : {path}")
 
 # ─── Fonctions SVG génériques (fond clair) ────────────────────────
 def svg_bar_chart_activity(monthly):
@@ -148,17 +166,14 @@ def svg_stats_card(repos, forks, stars):
     svg.append(f'<rect width="100%" height="100%" fill="#f6f8fa" rx="12" />')
     svg.append(f'<text x="25" y="40" class="title">Statistiques de NeoHeberg</text>')
 
-    # Repos
     svg.append(f'<circle cx="50" cy="80" r="12" fill="#28a745"/>')
     svg.append(f'<text x="75" y="85" class="label">Repositories</text>')
     svg.append(f'<text x="75" y="120" class="number">{repos}</text>')
 
-    # Forks
     svg.append(f'<circle cx="200" cy="80" r="12" fill="#0366d6"/>')
     svg.append(f'<text x="225" y="85" class="label">Forks</text>')
     svg.append(f'<text x="225" y="120" class="number">{forks}</text>')
 
-    # Stars
     svg.append(f'<circle cx="350" cy="80" r="12" fill="#d73a49"/>')
     svg.append(f'<text x="375" y="85" class="label">Stars</text>')
     svg.append(f'<text x="375" y="120" class="number">{stars}</text>')
@@ -202,23 +217,17 @@ def main():
     # 1. Activité
     monthly = get_monthly_commits(repos)
     activity_svg = svg_bar_chart_activity(monthly)
-    with open("profile/activity-graph.svg", "w") as f:
-        f.write(activity_svg)
-    print("✅ activity-graph.svg")
+    write_if_changed("profile/activity-graph.svg", activity_svg)
 
     # 2. Stats globales
     repos_count, forks_count, stars_count = get_global_stats(repos)
     stats_svg = svg_stats_card(repos_count, forks_count, stars_count)
-    with open("profile/org-stats.svg", "w") as f:
-        f.write(stats_svg)
-    print(f"✅ org-stats.svg ({repos_count} repos, {forks_count} forks, {stars_count} stars)")
+    write_if_changed("profile/org-stats.svg", stats_svg)
 
     # 3. Langages
     top_langs = get_top_languages(repos)
     langs_svg = svg_top_languages(top_langs)
-    with open("profile/org-languages.svg", "w") as f:
-        f.write(langs_svg)
-    print(f"✅ org-languages.svg ({len(top_langs)} langages)")
+    write_if_changed("profile/org-languages.svg", langs_svg)
 
 if __name__ == "__main__":
     main()
