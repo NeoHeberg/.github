@@ -148,7 +148,6 @@ def svg_bar_chart_activity(monthly):
 
     svg.append(f'<line x1="{ml}" y1="{mt + ph}" x2="{width - mr}" y2="{mt + ph}" class="axe-line"/>')
     svg.append(f'<text x="{width/2}" y="28" text-anchor="middle" class="title">Activité de NeoHeberg en {YEAR}</text>')
-    svg.append(f'<!-- {datetime.datetime.now().isoformat()} -->')
     svg.append('</svg>')
     return "\n".join(svg)
 
