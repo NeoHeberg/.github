@@ -31,7 +31,7 @@
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
 <rect x="440.0" y="62.5" width="86.0" height="227.5" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
-<rect x="530.0" y="57.5" width="86.0" height="232.5" class="bar-green"/>
+<rect x="530.0" y="53.75" width="86.0" height="236.25" class="bar-green"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
 <rect x="620.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="663.0" y="310" text-anchor="middle">Juil</text>
