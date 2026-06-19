@@ -12,26 +12,26 @@
 <line x1="80" y1="290.0" x2="1160" y2="290.0" class="axe-line" stroke-dasharray="3,3"/>
 <text x="70" y="294.0" text-anchor="end">0</text>
 <line x1="80" y1="240.0" x2="1160" y2="240.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="244.0" text-anchor="end">40</text>
+<text x="70" y="244.0" text-anchor="end">45</text>
 <line x1="80" y1="190.0" x2="1160" y2="190.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="194.0" text-anchor="end">80</text>
+<text x="70" y="194.0" text-anchor="end">90</text>
 <line x1="80" y1="140.0" x2="1160" y2="140.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="144.0" text-anchor="end">120</text>
+<text x="70" y="144.0" text-anchor="end">135</text>
 <line x1="80" y1="90.0" x2="1160" y2="90.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="94.0" text-anchor="end">160</text>
+<text x="70" y="94.0" text-anchor="end">180</text>
 <line x1="80" y1="40.0" x2="1160" y2="40.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="44.0" text-anchor="end">200</text>
-<rect x="80.0" y="288.75" width="86.0" height="1.25" class="bar-green"/>
+<text x="70" y="44.0" text-anchor="end">225</text>
+<rect x="80.0" y="288.8888888888889" width="86.0" height="1.1111111111111112" class="bar-green"/>
 <text x="123.0" y="310" text-anchor="middle">Jan</text>
-<rect x="170.0" y="226.25" width="86.0" height="63.75" class="bar-green"/>
+<rect x="170.0" y="233.33333333333334" width="86.0" height="56.666666666666664" class="bar-green"/>
 <text x="213.0" y="310" text-anchor="middle">Fév</text>
-<rect x="260.0" y="188.75" width="86.0" height="101.25" class="bar-green"/>
+<rect x="260.0" y="200.0" width="86.0" height="90.0" class="bar-green"/>
 <text x="303.0" y="310" text-anchor="middle">Mar</text>
-<rect x="350.0" y="180.0" width="86.0" height="110.0" class="bar-green"/>
+<rect x="350.0" y="192.22222222222223" width="86.0" height="97.77777777777779" class="bar-green"/>
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
-<rect x="440.0" y="62.5" width="86.0" height="227.5" class="bar-green"/>
+<rect x="440.0" y="87.77777777777777" width="86.0" height="202.22222222222223" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
-<rect x="530.0" y="43.75" width="86.0" height="246.25" class="bar-green"/>
+<rect x="530.0" y="63.33333333333334" width="86.0" height="226.66666666666666" class="bar-green"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
 <rect x="620.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="663.0" y="310" text-anchor="middle">Juil</text>
