@@ -17,5 +17,5 @@
 <text x="225" y="120" class="number">0</text>
 <circle cx="350" cy="80" r="12" fill="#d73a49"/>
 <text x="375" y="85" class="label">Stars</text>
-<text x="375" y="120" class="number">18</text>
+<text x="375" y="120" class="number">19</text>
 </svg>
