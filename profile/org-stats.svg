@@ -11,7 +11,7 @@
 <text x="25" y="40" class="title">Statistiques de NeoHeberg</text>
 <circle cx="50" cy="80" r="12" fill="#28a745"/>
 <text x="75" y="85" class="label">Repositories</text>
-<text x="75" y="120" class="number">12</text>
+<text x="75" y="120" class="number">13</text>
 <circle cx="200" cy="80" r="12" fill="#0366d6"/>
 <text x="225" y="85" class="label">Forks</text>
 <text x="225" y="120" class="number">0</text>
