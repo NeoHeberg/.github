@@ -38,11 +38,11 @@
 
 ### 📊 Activité de l’organisation (cette année)
 
-![Graphique d'activité NeoHeberg](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/activity-graph.svg?v=20260703)
+![Graphique d'activité NeoHeberg](https://raw.githubusercontent.com/NeoHeberg/.github/main/profile/activity-graph.svg?v=20260704)
 
 | Statistiques globales | Langages utilisés |
 |----------------------|-------------------|
-| ![Stats NeoHeberg](./org-stats.svg?v=20260703) | ![Top Langs](./org-languages.svg?v=20260703) |
+| ![Stats NeoHeberg](./org-stats.svg?v=20260704) | ![Top Langs](./org-languages.svg?v=20260704) |
 
 ---
 
