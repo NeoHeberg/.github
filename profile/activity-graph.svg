@@ -33,7 +33,7 @@
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
 <rect x="530.0" y="58.0" width="86.0" height="232.0" class="bar-green"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
-<rect x="620.0" y="202.0" width="86.0" height="88.0" class="bar-green"/>
+<rect x="620.0" y="193.0" width="86.0" height="97.0" class="bar-green"/>
 <text x="663.0" y="310" text-anchor="middle">Juil</text>
 <rect x="710.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="753.0" y="310" text-anchor="middle">Aoû</text>
