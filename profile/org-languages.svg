@@ -12,11 +12,11 @@
 <text x="330" y="73" class="lang">PHP</text>
 <rect x="20" y="90" width="62.146679524525695" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">JavaScript</text>
-<rect x="20" y="120" width="40.272413396823175" height="16" rx="4" fill="#563d7c"/>
+<rect x="20" y="120" width="40.43605130485617" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">HTML</text>
-<rect x="20" y="150" width="36.712102209986156" height="16" rx="4" fill="#2b7489"/>
+<rect x="20" y="150" width="36.77281062472207" height="16" rx="4" fill="#2b7489"/>
 <text x="330" y="163" class="lang">CSS</text>
-<rect x="20" y="180" width="5.29362386765066" height="16" rx="4" fill="#3572a5"/>
+<rect x="20" y="180" width="19.611316248369867" height="16" rx="4" fill="#3572a5"/>
 <text x="330" y="193" class="lang">TypeScript</text>
 <rect x="20" y="210" width="2.353887587002903" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">Python</text>
