@@ -12,12 +12,12 @@
 <text x="330" y="73" class="lang">PHP</text>
 <rect x="20" y="90" width="61.40702682331566" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">JavaScript</text>
-<rect x="20" y="120" width="39.9528176906506" height="16" rx="4" fill="#563d7c"/>
-<text x="330" y="133" class="lang">HTML</text>
-<rect x="20" y="150" width="36.46623099418573" height="16" rx="4" fill="#2b7489"/>
-<text x="330" y="163" class="lang">CSS</text>
-<rect x="20" y="180" width="29.919623858087725" height="16" rx="4" fill="#3572a5"/>
-<text x="330" y="193" class="lang">TypeScript</text>
+<rect x="20" y="120" width="44.64603393769038" height="16" rx="4" fill="#563d7c"/>
+<text x="330" y="133" class="lang">TypeScript</text>
+<rect x="20" y="150" width="39.9528176906506" height="16" rx="4" fill="#2b7489"/>
+<text x="330" y="163" class="lang">HTML</text>
+<rect x="20" y="180" width="36.46721841607654" height="16" rx="4" fill="#3572a5"/>
+<text x="330" y="193" class="lang">CSS</text>
 <rect x="20" y="210" width="2.3258722638127978" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">Python</text>
 <rect x="20" y="240" width="1.994592219444641" height="16" rx="4" fill="#dea584"/>
