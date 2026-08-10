@@ -10,13 +10,13 @@
 <text x="20" y="30" class="title">Langages les plus utilisés</text>
 <rect x="20" y="60" width="300.0" height="16" rx="4" fill="#f1e05a"/>
 <text x="330" y="73" class="lang">PHP</text>
-<rect x="20" y="90" width="80.9668219236432" height="16" rx="4" fill="#e34c26"/>
+<rect x="20" y="90" width="87.69272082449788" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">TypeScript</text>
 <rect x="20" y="120" width="57.586371338883076" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">JavaScript</text>
 <rect x="20" y="150" width="37.75036344948284" height="16" rx="4" fill="#2b7489"/>
 <text x="330" y="163" class="lang">HTML</text>
-<rect x="20" y="180" width="28.983591529080588" height="16" rx="4" fill="#3572a5"/>
+<rect x="20" y="180" width="29.888511292398583" height="16" rx="4" fill="#3572a5"/>
 <text x="330" y="193" class="lang">CSS</text>
 <rect x="20" y="210" width="2.18115988999287" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">Python</text>
