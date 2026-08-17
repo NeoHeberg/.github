@@ -20,8 +20,8 @@
 <text x="330" y="193" class="lang">CSS</text>
 <rect x="20" y="210" width="4.818804549230536" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">Python</text>
-<rect x="20" y="240" width="1.7255014738658423" height="16" rx="4" fill="#dea584"/>
-<text x="330" y="253" class="lang">Hack</text>
-<rect x="20" y="270" width="0.7822415716300223" height="16" rx="4" fill="#ffac45"/>
-<text x="330" y="283" class="lang">Blade</text>
+<rect x="20" y="240" width="2.6085396662464437" height="16" rx="4" fill="#dea584"/>
+<text x="330" y="253" class="lang">Shell</text>
+<rect x="20" y="270" width="1.7255014738658423" height="16" rx="4" fill="#ffac45"/>
+<text x="330" y="283" class="lang">Hack</text>
 </svg>
