@@ -12,30 +12,30 @@
 <line x1="80" y1="290.0" x2="1160" y2="290.0" class="axe-line" stroke-dasharray="3,3"/>
 <text x="70" y="294.0" text-anchor="end">0</text>
 <line x1="80" y1="240.0" x2="1160" y2="240.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="244.0" text-anchor="end">55</text>
+<text x="70" y="244.0" text-anchor="end">60</text>
 <line x1="80" y1="190.0" x2="1160" y2="190.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="194.0" text-anchor="end">110</text>
+<text x="70" y="194.0" text-anchor="end">120</text>
 <line x1="80" y1="140.0" x2="1160" y2="140.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="144.0" text-anchor="end">165</text>
+<text x="70" y="144.0" text-anchor="end">180</text>
 <line x1="80" y1="90.0" x2="1160" y2="90.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="94.0" text-anchor="end">220</text>
+<text x="70" y="94.0" text-anchor="end">240</text>
 <line x1="80" y1="40.0" x2="1160" y2="40.0" class="axe-line" stroke-dasharray="3,3"/>
-<text x="70" y="44.0" text-anchor="end">275</text>
-<rect x="80.0" y="289.09090909090907" width="86.0" height="0.9090909090909091" class="bar-green"/>
+<text x="70" y="44.0" text-anchor="end">300</text>
+<rect x="80.0" y="289.1666666666667" width="86.0" height="0.8333333333333334" class="bar-green"/>
 <text x="123.0" y="310" text-anchor="middle">Jan</text>
-<rect x="170.0" y="243.63636363636363" width="86.0" height="46.36363636363637" class="bar-green"/>
+<rect x="170.0" y="247.5" width="86.0" height="42.5" class="bar-green"/>
 <text x="213.0" y="310" text-anchor="middle">Fév</text>
-<rect x="260.0" y="216.36363636363637" width="86.0" height="73.63636363636364" class="bar-green"/>
+<rect x="260.0" y="222.5" width="86.0" height="67.5" class="bar-green"/>
 <text x="303.0" y="310" text-anchor="middle">Mar</text>
-<rect x="350.0" y="210.0" width="86.0" height="80.0" class="bar-green"/>
+<rect x="350.0" y="216.66666666666669" width="86.0" height="73.33333333333333" class="bar-green"/>
 <text x="393.0" y="310" text-anchor="middle">Avr</text>
-<rect x="440.0" y="124.54545454545453" width="86.0" height="165.45454545454547" class="bar-green"/>
+<rect x="440.0" y="138.33333333333331" width="86.0" height="151.66666666666669" class="bar-green"/>
 <text x="483.0" y="310" text-anchor="middle">Mai</text>
-<rect x="530.0" y="79.0909090909091" width="86.0" height="210.9090909090909" class="bar-green"/>
+<rect x="530.0" y="96.66666666666666" width="86.0" height="193.33333333333334" class="bar-green"/>
 <text x="573.0" y="310" text-anchor="middle">Juin</text>
-<rect x="620.0" y="180.0" width="86.0" height="110.0" class="bar-green"/>
+<rect x="620.0" y="189.16666666666669" width="86.0" height="100.83333333333333" class="bar-green"/>
 <text x="663.0" y="310" text-anchor="middle">Juil</text>
-<rect x="710.0" y="40.90909090909091" width="86.0" height="249.0909090909091" class="bar-green"/>
+<rect x="710.0" y="58.33333333333334" width="86.0" height="231.66666666666666" class="bar-green"/>
 <text x="753.0" y="310" text-anchor="middle">Aoû</text>
 <rect x="800.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="843.0" y="310" text-anchor="middle">Sep</text>
