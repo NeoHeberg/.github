@@ -37,7 +37,7 @@
 <text x="663.0" y="310" text-anchor="middle">Juil</text>
 <rect x="710.0" y="49.16666666666666" width="86.0" height="240.83333333333334" class="bar-green"/>
 <text x="753.0" y="310" text-anchor="middle">Aoû</text>
-<rect x="800.0" y="230.0" width="86.0" height="60.0" class="bar-green"/>
+<rect x="800.0" y="225.83333333333334" width="86.0" height="64.16666666666666" class="bar-green"/>
 <text x="843.0" y="310" text-anchor="middle">Sep</text>
 <rect x="890.0" y="290.0" width="86.0" height="0.0" class="bar-empty"/>
 <text x="933.0" y="310" text-anchor="middle">Oct</text>
