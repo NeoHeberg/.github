@@ -10,18 +10,18 @@
 <text x="20" y="30" class="title">Langages les plus utilisés</text>
 <rect x="20" y="60" width="300.0" height="16" rx="4" fill="#f1e05a"/>
 <text x="330" y="73" class="lang">PHP</text>
-<rect x="20" y="90" width="218.5010433692088" height="16" rx="4" fill="#e34c26"/>
+<rect x="20" y="90" width="217.44861785757774" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">TypeScript</text>
-<rect x="20" y="120" width="43.11736104686424" height="16" rx="4" fill="#563d7c"/>
+<rect x="20" y="120" width="42.56531857604828" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">JavaScript</text>
-<rect x="20" y="150" width="27.962980095462285" height="16" rx="4" fill="#2b7489"/>
+<rect x="20" y="150" width="27.60496299403304" height="16" rx="4" fill="#2b7489"/>
 <text x="330" y="163" class="lang">HTML</text>
-<rect x="20" y="180" width="24.65332387619371" height="16" rx="4" fill="#3572a5"/>
+<rect x="20" y="180" width="24.337681139810844" height="16" rx="4" fill="#3572a5"/>
 <text x="330" y="193" class="lang">CSS</text>
-<rect x="20" y="210" width="4.99223897780656" height="16" rx="4" fill="#89e051"/>
+<rect x="20" y="210" width="4.92832208045246" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">Python</text>
-<rect x="20" y="240" width="2.4348708038226032" height="16" rx="4" fill="#dea584"/>
+<rect x="20" y="240" width="2.4036965375404225" height="16" rx="4" fill="#dea584"/>
 <text x="330" y="253" class="lang">Shell</text>
-<rect x="20" y="270" width="0.7216208714959755" height="16" rx="4" fill="#ffac45"/>
+<rect x="20" y="270" width="0.712381777098245" height="16" rx="4" fill="#ffac45"/>
 <text x="330" y="283" class="lang">Dockerfile</text>
 </svg>
