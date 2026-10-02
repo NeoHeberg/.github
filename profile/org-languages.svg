@@ -10,7 +10,7 @@
 <text x="20" y="30" class="title">Langages les plus utilisés</text>
 <rect x="20" y="60" width="300.0" height="16" rx="4" fill="#f1e05a"/>
 <text x="330" y="73" class="lang">TypeScript</text>
-<rect x="20" y="90" width="271.70563331332346" height="16" rx="4" fill="#e34c26"/>
+<rect x="20" y="90" width="271.35528893241917" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">PHP</text>
 <rect x="20" y="120" width="30.369419607595336" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">JavaScript</text>
