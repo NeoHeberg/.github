@@ -14,10 +14,10 @@
 <text x="330" y="103" class="lang">TypeScript</text>
 <rect x="20" y="120" width="49.139416549861814" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">JavaScript</text>
-<rect x="20" y="150" width="9.5341443551434" height="16" rx="4" fill="#2b7489"/>
-<text x="330" y="163" class="lang">HTML</text>
-<rect x="20" y="180" width="8.54245678866308" height="16" rx="4" fill="#3572a5"/>
-<text x="330" y="193" class="lang">Shell</text>
+<rect x="20" y="150" width="9.654279848259367" height="16" rx="4" fill="#2b7489"/>
+<text x="330" y="163" class="lang">Shell</text>
+<rect x="20" y="180" width="9.5341443551434" height="16" rx="4" fill="#3572a5"/>
+<text x="330" y="193" class="lang">HTML</text>
 <rect x="20" y="210" width="7.490585200466899" height="16" rx="4" fill="#89e051"/>
 <text x="330" y="223" class="lang">CSS</text>
 <rect x="20" y="240" width="2.95376109051835" height="16" rx="4" fill="#dea584"/>
