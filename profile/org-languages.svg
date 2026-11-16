@@ -10,18 +10,18 @@
 <text x="20" y="30" class="title">Langages les plus utilisés</text>
 <rect x="20" y="60" width="300.0" height="16" rx="4" fill="#f1e05a"/>
 <text x="330" y="73" class="lang">PHP</text>
-<rect x="20" y="90" width="165.64995641652303" height="16" rx="4" fill="#e34c26"/>
+<rect x="20" y="90" width="185.38610770203243" height="16" rx="4" fill="#e34c26"/>
 <text x="330" y="103" class="lang">TypeScript</text>
-<rect x="20" y="120" width="56.08694641107696" height="16" rx="4" fill="#563d7c"/>
+<rect x="20" y="120" width="56.1596587215439" height="16" rx="4" fill="#563d7c"/>
 <text x="330" y="133" class="lang">JavaScript</text>
-<rect x="20" y="150" width="9.349743525115635" height="16" rx="4" fill="#2b7489"/>
+<rect x="20" y="150" width="9.334753662582097" height="16" rx="4" fill="#2b7489"/>
 <text x="330" y="163" class="lang">Shell</text>
-<rect x="20" y="180" width="8.603498380434996" height="16" rx="4" fill="#3572a5"/>
-<text x="330" y="193" class="lang">CSS</text>
-<rect x="20" y="210" width="8.403209424233014" height="16" rx="4" fill="#89e051"/>
-<text x="330" y="223" class="lang">HTML</text>
-<rect x="20" y="240" width="7.206764215639942" height="16" rx="4" fill="#dea584"/>
-<text x="330" y="253" class="lang">Dart</text>
-<rect x="20" y="270" width="2.3820133015871585" height="16" rx="4" fill="#ffac45"/>
+<rect x="20" y="180" width="8.873105048776177" height="16" rx="4" fill="#3572a5"/>
+<text x="330" y="193" class="lang">Dart</text>
+<rect x="20" y="210" width="8.685794344180362" height="16" rx="4" fill="#89e051"/>
+<text x="330" y="223" class="lang">CSS</text>
+<rect x="20" y="240" width="8.40104612391915" height="16" rx="4" fill="#dea584"/>
+<text x="330" y="253" class="lang">HTML</text>
+<rect x="20" y="270" width="2.378194367747109" height="16" rx="4" fill="#ffac45"/>
 <text x="330" y="283" class="lang">Python</text>
 </svg>
